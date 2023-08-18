@@ -40,15 +40,15 @@ pip install -r requirements.txt
 - [ ] Run the program with the following command:
 
 ```
-python v2/main.py
+python appplication/main.py
 ```
 
-## Depolyment: Python to EXE using Pyinstaller
+## Deployment: Python to EXE using Pyinstaller
 
 - [ ] Export the project to a folder with the following command:
 
 ```
-cd v2
+cd application
 pyinstaller main.spec
 ```
 
@@ -56,24 +56,24 @@ pyinstaller main.spec
 
 For Git Bash:
 ```
-cd v2/dist/main
+cd application/dist/main
 ./main.exe
 ```
 
 For Windows Terminal:
 ```
-cd v2/dist/main
+cd application/dist/main
 main.exe
 ```
-- [ ] Zip the 'main' folder under v2/dist for distribution.
+- [ ] Zip the 'main' folder under application/dist for distribution.
 
 ## Quicktest
 
-- [ ] go to the dist folder under v2 and download the zip.
+- [ ] Go to the dist folder under application and download the zip.
 
 ## Working in teams
 
-### Warning: Multiple people modifying the same file would most likely cause conflicts when merging; create a duplicate and mark where the changes are made before merging and combine the code afterwards to avoid conflict.
+### Warning: Multiple people modifying the same file would most likely cause conflicts when merging; create a duplicate and mark where the changes are made before merging and combine the code afterward to avoid conflict.
 
 - [ ] Start with 'git pull' to get the latest code on your master branch:
 ```
